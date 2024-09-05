@@ -1,40 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Identikit | Cervino Nicolas</title>
-    <style>
-        th, td {
-            padding: 10px;
-            border: 1px solid #ddd;
-        }
-        a {
-            color: #1a73e8;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link href="style.css" rel="stylesheet" />
 </head>
-<body style="font-family: Arial, sans-serif; background-color: #f4f4f4;  margin: 20px;">
+
+<body>
+    <nav>
+        <div class="nav-links">
+            <a>Inicio</a>
+            <a>Seccion 1</a>
+            <a>Seccion 2</a>
+        </div>
+    </nav>
+    <main>
         <h1>Mi Identikit</h1>
         <p><strong>Nombre:</strong> Nicolas Cervino</p>
         <p><strong>Edad:</strong> 25 años</p>
         <p><strong>Intereses:</strong> Cine, tecnología, futbol, videojuegos</p>
         <p><strong>Hobbies:</strong> Ver peliculas, programar, dormir 😴</p>
         <p>
-            <strong>Película Favorita:</strong> 
+            <strong>Película Favorita:</strong>
         </p>
-            <a href="https://www.imdb.com/title/tt1856101/" target="_blank">
-                <img 
-                    src="https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_.jpg" 
-                    width="180"
-                >
-                <p>Blade runner 2049</p> 
-            </a>
-        
+        <a href="https://www.imdb.com/title/tt1856101/" target="_blank">
+            <img src="https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_.jpg"
+                width="180">
+            <p>Blade runner 2049</p>
+        </a>
+
         <p>
             <strong style="display: block;">3 sitios web con diseños que me gustan:</strong>
             <a href="https://tidal.com/" target="_blank">Tidal</a>
@@ -45,77 +41,60 @@
         <table border="1" width="80%">
             <tr>
                 <th width="100px" height="100px">S</th>
-                <td style="background-color: #d4edda;">
-                    <div style="display: inline-block; margin-right: 10px;" >
-                        <img 
-                        src="https://lumiere-a.akamaihd.net/v1/images/1_preview_alienromulus_latam_1sht_048_v2_simp_cmyk_c04c_74c20d70.jpeg?region=0%2C0%2C1240%2C1772"
-                        width="120"
-                        />
+                <td class="movie-list tier-s">
+                    <div class="movie-card">
+                        <img
+                            src="https://lumiere-a.akamaihd.net/v1/images/1_preview_alienromulus_latam_1sht_048_v2_simp_cmyk_c04c_74c20d70.jpeg?region=0%2C0%2C1240%2C1772" />
                         <p>Alien Romulus</p>
                     </div>
-                    <div style="display: inline-block; margin-right: 10px;">
-                        <img 
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHKkFD8TiZ4cs2rL9xEQloWLMZdTaP_8ss2g&s"
-                        width="120"
-                        />
+                    <div class="movie-card">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHKkFD8TiZ4cs2rL9xEQloWLMZdTaP_8ss2g&s" />
                         <p>Coraline</p>
                     </div>
-                    <div style="display: inline-block; margin-right: 10px;">
-                        <img 
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSnb9_wdBmx1Np8LCyJfamDNSUH2WHBQrivQ&s"
-                        width="120"
-                        />
+                    <div class="movie-card">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSnb9_wdBmx1Np8LCyJfamDNSUH2WHBQrivQ&s" />
                         <p>Deadpool & Wolverine</p>
                     </div>
                 </td>
             </tr>
             <tr>
                 <th width="100px" height="100px">A</th>
-                <td style="background-color: #cce5ff;">
-                    <div style="display: inline-block; margin-right: 10px;">
-                        <img 
-                        src="https://pics.filmaffinity.com/Pobres_criaturas-235700969-large.jpg"
-                        width="120"
-                        />
+                <td class="movie-list tier-a">
+                    <div class="movie-card">
+                        <img src="https://pics.filmaffinity.com/Pobres_criaturas-235700969-large.jpg" />
                         <p>Poor Things</p>
                     </div>
-                    
+
                 </td>
             </tr>
             <tr>
                 <th width="100px" height="100px">B</th>
-                <td style="background-color: #fff3cd;">
-                    <div style="display: inline-block; margin-right: 10px;">
-                        <img 
-                        src="https://grhsjournalist.com/wp-content/uploads/2024/02/MV5BNDYzYzc0MDYtMGM2MC00YzNjLWJhMjYtYzJhMWViMjgxZTcwXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"
-                        width="120"
-                        height="180"
-                        />
+                <td class="movie-list tier-b">
+                    <div class="movie-card">
+                        <img
+                            src="https://grhsjournalist.com/wp-content/uploads/2024/02/MV5BNDYzYzc0MDYtMGM2MC00YzNjLWJhMjYtYzJhMWViMjgxZTcwXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg" />
                         <p>Anyone but You</p>
                     </div>
-                    <div style="display: inline-block; margin-right: 10px;">
-                        <img 
-                        src="https://pics.filmaffinity.com/Godzilla_y_Kong_El_nuevo_imperio-478803486-large.jpg"
-                        width="120"
-                        height="180"
-                        />
+                    <div class="movie-card">
+                        <img src="https://pics.filmaffinity.com/Godzilla_y_Kong_El_nuevo_imperio-478803486-large.jpg" />
                         <p>Godzilla x Kong</p>
                     </div>
                 </td>
             </tr>
             <tr>
                 <th width="100px" height="100px">C</th>
-                <td style="background-color: #f8d7da;">
-                    <div style="display: inline-block; margin-right: 10px;">
-                        <img 
-                        src="https://m.media-amazon.com/images/M/MV5BM2U0MTJiYTItMjNiZS00MzU4LTkxYTAtYTU0ZGY1ODJhMjRhXkEyXkFqcGc@._V1_.jpg"
-                        width="120"
-                        height="180"
-                        />
+                <td class="movie-list tier-c">
+                    <div class="movie-card">
+                        <img
+                            src="https://m.media-amazon.com/images/M/MV5BM2U0MTJiYTItMjNiZS00MzU4LTkxYTAtYTU0ZGY1ODJhMjRhXkEyXkFqcGc@._V1_.jpg" />
                         <p>The Fall Guy</p>
-                    </div>                    
+                    </div>
                 </td>
             </tr>
         </table>
+    </main>
 </body>
+
 </html>
