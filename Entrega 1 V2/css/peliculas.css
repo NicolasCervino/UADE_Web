@@ -1,0 +1,51 @@
+.movie-list {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
+
+.movie-list {
+    padding: 10px;
+    gap: 10px;
+    /* Reducing the gap between movie cards */
+}
+
+th,
+td {
+    padding: 5px;
+    /* Reducing table cell padding */
+}
+
+.tier-s {
+    background-color: #d4edda;
+}
+
+.tier-a {
+    background-color: #cce5ff;
+}
+
+.tier-b {
+    background-color: #fff3cd;
+}
+
+.tier-c {
+    background-color: #f8d7da;
+}
+
+.movie-card {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+}
+
+.movie-card p {
+    text-align: center;
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    min-height: 178px;
+    object-fit: cover;
+    border-radius: 5px;
+}

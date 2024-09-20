@@ -1,0 +1,18 @@
+.album-cover {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.cancion div {
+    display: inline-block;
+    vertical-align: top;
+    max-width: calc(100% - 120px);
+}
+
+.cancion {
+    padding: 10px 0;
+}
